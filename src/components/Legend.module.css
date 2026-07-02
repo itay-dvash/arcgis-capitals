@@ -1,0 +1,52 @@
+.panel {
+  padding: 0.8rem;
+}
+
+.panel:has(.list) .headingRow {
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.heading {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  row-gap: 0.625rem;
+  column-gap: 0.75rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.item {
+  display: contents;
+}
+
+.dot {
+  border-radius: 50%;
+  border: 1.5px solid var(--dot-border);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+}
+
+.range {
+  font-size: 0.82rem;
+  color: var(--text-primary);
+}
+
+.sublabel {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+}
