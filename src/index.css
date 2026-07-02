@@ -39,3 +39,6 @@ body,
   --accent: #e63946;
 }
 
+body {
+  background: --bg-app;
+}
