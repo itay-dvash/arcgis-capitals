@@ -40,5 +40,5 @@ body,
 }
 
 body {
-  background: --bg-app;
+  background: var(--bg-app);
 }
